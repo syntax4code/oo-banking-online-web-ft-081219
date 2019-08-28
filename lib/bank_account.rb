@@ -16,7 +16,7 @@ def CheckSaving():
       A=int(input("How much would you like to deposit?"))
     elif a == "withdrawal":
       A1=int(input("How much would you like to withdrawal?"))
-      
+
      ("If you choose Savings, press 2")
        elif CheckSaving == 2:
     b=int(input("Would you like to deposit or withdrawal in your savings account?"))
@@ -24,7 +24,7 @@ def CheckSaving():
       B=int(input("How much would you like to deposit?"))
     elif b == "withdrawal":
       B1=int(input("How much would you like to withdrawal"))
-     
+
      ("If you choose Deposit, press 3")
        elif CheckSaving == 3:
     c=input("Would you like to deposit?")
@@ -32,9 +32,9 @@ def CheckSaving():
       C=int(input("How much would you like to deposit?"))
     elif c == +1:
       print("Ok")
-    elif c == "no": 
+    elif c == "no":
       print("Ok")
-     
+
      ("If you choose Withdrawal, press 4")
        elif CheckSaving == 4:
     d=input("Would you like to withdrawal?")
@@ -42,7 +42,7 @@ def CheckSaving():
       D=int(input("How much would you like to withdrawal?"))
     elif d == "no":
       print("Ok")
-      
+
   else:
     print("Please start again")
 
